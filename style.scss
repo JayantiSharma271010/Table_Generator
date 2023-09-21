@@ -1,0 +1,19 @@
+#mtable{
+    border-collapse: collapse ;
+    width: fit-content;
+
+    td,th{
+        border: 1px solid #3f0b0f;
+        padding: 5px 18px;
+    }
+
+    tr:nth-child(even){
+        background-color: #ffd9b2;
+    }
+
+    tr:hover{
+        background: #ffad9c;
+        cursor: pointer;
+    }
+}
+

@@ -1,0 +1,16 @@
+#mtable {
+  border-collapse: collapse;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#mtable td, #mtable th {
+  border: 1px solid #3f0b0f;
+  padding: 5px 18px;
+}
+#mtable tr:nth-child(even) {
+  background-color: #ffd9b2;
+}
+#mtable tr:hover {
+  background: #ffad9c;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
